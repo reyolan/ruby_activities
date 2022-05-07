@@ -24,7 +24,7 @@ copy_information(contact_data[1], contacts["Avion School"])
 contacts
 
 #Activity  4
-def age() 
+def age
   year = 0
   puts "How old are you?"
   age = gets.chomp.to_i
