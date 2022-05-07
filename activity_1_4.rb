@@ -5,6 +5,7 @@
 h = {a:1, b:2, c:3, d:4}
 h[:b]
 h[:e] = 5
+h
 
 #Activity 3
 contact_data = [["john@email.com", "123 Main st.", "555-123-4567"],
