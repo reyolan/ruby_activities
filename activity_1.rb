@@ -1,13 +1,12 @@
-#Activity 1
+#Solution 1
 [1,2,3,4,5,6,7,8,9,10].each {|e| puts e}
 
-#Activity 2
+#Solution 2
 h = {a:1, b:2, c:3, d:4}
-h[:b]
+puts h[:b]
 h[:e] = 5
-h
 
-#Activity 3
+#Solution 3
 contact_data = [["john@email.com", "123 Main st.", "555-123-4567"],
             ["avion@email.com", "404 Not Found Dr.", "123-234-3454"]]
 
@@ -23,7 +22,7 @@ copy_information(contact_data[0], contacts["John Cruz"])
 copy_information(contact_data[1], contacts["Avion School"])
 contacts
 
-#Activity  4
+#Solution 4
 def age
   year = 0
   puts "How old are you?"
