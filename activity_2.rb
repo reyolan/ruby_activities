@@ -8,7 +8,7 @@ def number_exists?
   end
   false
 end
-check_if_number_exists
+number_exists?
 
 # Solution 2
 
