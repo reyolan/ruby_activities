@@ -2,6 +2,7 @@
 
 def number_exists?
   arr = [1, 3, 5, 7, 9, 11]
+  puts 'Input a number and check if it exists in the array'
   number_input = gets.chomp.to_i
   arr.each do |num|
     break true if num.equal?(number_input)
