@@ -27,11 +27,11 @@ def age
   year = 0
   puts "How old are you?"
   age = gets.chomp.to_i
-  4.times {|_i| 
+  4.times do |_i| 
     year+=10
     age+=10
     puts "In #{year} years you will be: #{age}"
-  }
+  end
 end
 
-
+age
