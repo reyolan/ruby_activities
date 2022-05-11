@@ -43,7 +43,7 @@ arr = [6, 3, 1, 8, 4, 2, 10, 65, 102]
 def divisible_by_two_each(array)
   result_array = []
   array.each do |num|
-    result_array.push(num) if num.even?
+    result_array << num if num.even?
   end
   result_array
 end
