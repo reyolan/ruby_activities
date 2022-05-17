@@ -1,4 +1,3 @@
-
 def find_smallest_integer_each(arr)
   smallest = 0
   arr.each_with_index do |num, i|
