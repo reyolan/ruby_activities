@@ -2,7 +2,7 @@
 SELECT
     COUNT(id) AS number_of_students
 FROM
-    students
+    students;
 
 -- Select all students with location is Manila
 
@@ -11,16 +11,16 @@ SELECT
 FROM
     students
 WHERE
-    location = 'Manila'
+    location = 'Manila';
 
 
 -- Display average age of all students
 SELECT
     AVG(age) as average_age
 FROM
-    students
+    students;
 
 -- Display all students by age in descending order
 SELECT
 *
-FROM students ORDER BY age DESC
+FROM students ORDER BY age DESC;
