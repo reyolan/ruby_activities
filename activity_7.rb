@@ -1,8 +1,9 @@
 def is_isogram(string)
-  checker = Hash.new(0)
+  checker = {}
   string.downcase.each_char do |char|
-    checker[char] += 1
-    return false if checker[char] == 2
+    return false if checker[char.to_sym]
+
+    checker[char.to_sym] = char
   end
   true
 end
