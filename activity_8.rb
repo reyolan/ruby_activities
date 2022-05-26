@@ -22,5 +22,4 @@ def unique_in_order(iterable)
   end
   
   iterable[0] == iterable[1] ? unique_in_order(sliced_iterable) : [iterable[0]] + unique_in_order(sliced_iterable)
-
 end
